@@ -1,0 +1,18 @@
+{
+  "name": "sentence-surgeon-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright TypeScript POM framework for Sentence Surgeon",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.1",
+    "typescript": "^5.8.3"
+  }
+}
